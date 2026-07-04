@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="TickerTower.Api/TickerTower.Api.csproj" />
+  <Project Path="TickerTower.Business/TickerTower.Business.csproj" />
+  <Project Path="TickerTower.Common/TickerTower.Common.csproj" />
+  <Project Path="TickerTower.Data/TickerTower.Data.csproj" />
+</Solution>
