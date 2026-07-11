@@ -1,0 +1,2 @@
+cd TickerTower.WebUI
+npm run lint-staged

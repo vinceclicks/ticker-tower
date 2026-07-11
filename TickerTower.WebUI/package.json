@@ -7,7 +7,14 @@
     "start": "ng serve --ssl --ssl-cert %USERPROFILE%/.aspnet/https/ticker-tower.client.pem --ssl-key %USERPROFILE%/.aspnet/https/ticker-tower.client.key --proxy-config proxy.conf.json",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "test": "ng test",
+    "prettier": "prettier --write .",
+    "prettier:check": "prettier --check .",
+    "prepare": "cd .. && husky TickerTower.WebUI/.husky",
+    "lint-staged": "lint-staged"
+  },
+  "lint-staged": {
+    "*.{js,ts,html,css,scss,json,md,yml,yaml}": "prettier --write"
   },
   "private": true,
   "packageManager": "npm@11.18.0",
@@ -25,8 +32,10 @@
     "@angular/build": "^21.2.18",
     "@angular/cli": "^21.2.18",
     "@angular/compiler-cli": "^21.2.0",
+    "husky": "^9.1.7",
     "jsdom": "^28.0.0",
-    "prettier": "^3.8.1",
+    "lint-staged": "^17.0.8",
+    "prettier": "^3.9.5",
     "typescript": "~5.9.2",
     "vitest": "^4.0.8"
   }
