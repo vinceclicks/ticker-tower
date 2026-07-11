@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <ItemGroup>
-    <ProjectReference Include="..\TickerTower.Common\TickerTower.Api.Common.csproj" />
+    <ProjectReference Include="..\TickerTower.Api.Common\TickerTower.Api.Common.csproj" />
   </ItemGroup>
 
   <PropertyGroup>
