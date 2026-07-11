@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
     <TargetFramework>net10.0</TargetFramework>
@@ -13,8 +13,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\TickerTower.Business\TickerTower.Business.csproj" />
-    <ProjectReference Include="..\TickerTower.Common\TickerTower.Common.csproj" />
+    <ProjectReference Include="..\TickerTower.Api.Business\TickerTower.Api.Business.csproj" />
+    <ProjectReference Include="..\TickerTower.Api.Common\TickerTower.Api.Common.csproj" />
   </ItemGroup>
 
 </Project>
